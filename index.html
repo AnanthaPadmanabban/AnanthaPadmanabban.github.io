@@ -26,7 +26,7 @@
     <p>Mechatronics Engineering Graduate | AI & Robotics Enthusiast</p>
     <div class="ContactInfo">
         📍 Puducherry, India | 📞 +91 9600331797 <br>
-        📧 <a href="mailto:anantha.padmanabban5122003@gmail.com">Email Me</a> | 
+        📧 <a id="email-link" href="#">Email Me</a> |
         🔗 <a href="https://github.com/AnanthaPadmanabban">GitHub Profile</a>
     </div>
 </header>
@@ -93,6 +93,17 @@
 <footer style="text-align:center; margin-top:50px; font-size:0.8em; color:#888;">
     © 2026 P. Anantha Padmanabban | Built with GitHub Pages
 </footer>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var u = 'anantha.padmanabban5122003';
+        var d = 'gmail.com';
+        var el = document.getElementById('email-link');
+        if (el) {
+            el.href = 'mailto:' + u + '@' + d;
+        }
+    });
+</script>
 
 </body>
 </html>
